@@ -2,7 +2,7 @@ class Herramientas:
     def __init__(self, lista_numeros):
         if (type(lista_numeros) != list):
             self.lista = []
-            raise ValueError('Se ha creado una lista vacía. Se esperaba una lista de núemeros enteros')  
+            raise ValueError('Se ha creado una lista vacía. Se esperaba una lista de números enteros')  
         else:
             self.lista = lista_numeros
 
